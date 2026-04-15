@@ -84,19 +84,19 @@ sudo python3 va_ddos_tool/ddos_flooder.py
 
 ### DoS Detection (Single Attacker)
 
-![DoS Detection](https://github.com/Varun-hubb/va-ddos-tool/blob/main/va_ddos_tool/assets/dos_output.png?raw=true)
+![DoS Detection](https://github.com/Varun-hubb/va-ddos-tool/blob/main/dos_output.png?raw=true)
 
 ---
 
 ### DDoS Detection (Multiple Attackers)
 
-![DDoS Detection](assets/ddos_output.png)
+![DDoS Detection](https://github.com/Varun-hubb/va-ddos-tool/blob/main/ddos_output.png?raw=true)
 
 ---
 
 ### Firewall Rules Applied (iptables)
 
-![iptables Rules](assets/iptables_output.png)
+![iptables Rules](https://github.com/Varun-hubb/va-ddos-tool/blob/main/iptables_output.png?raw=true)
 
 ---
 
