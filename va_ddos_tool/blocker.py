@@ -66,7 +66,7 @@ def packet_callback(packet):
 			packet_count.clear()
 			start_time[0] = current_time
 
-if __name__ == "__main__":
+def main():
 	if os.geteuid() != 0:
 		print("[ERROR] Run this script as root!")
 		sys.exit(1)
