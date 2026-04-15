@@ -94,13 +94,13 @@ sudo python3 va_ddos_tool/ddos_flooder.py
 
 ---
 
-### 🛡️ Firewall Rules Applied (iptables)
+### Firewall Rules Applied (iptables)
 
 ![iptables Rules](assets/iptables_output.png)
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 * Python
 * Scapy
@@ -110,17 +110,17 @@ sudo python3 va_ddos_tool/ddos_flooder.py
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 
-* ⏳ Auto-remove rate limiting after a timeout
-* 📊 Real-time dashboard for monitoring
-* 🧾 Logging system for attacks
-* 🔍 Detection of SYN flood attacks
-* ⚙️ Configurable thresholds via CLI
+* Auto-remove rate limiting after a timeout
+* Real-time dashboard for monitoring
+* Logging system for attacks
+* Detection of SYN flood attacks
+* Configurable thresholds via CLI
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This project is for **educational purposes only**.
 
@@ -128,12 +128,12 @@ Do NOT use this tool on networks or systems without proper authorization.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 VA (Your Name)
 
 ---
 
-## ⭐ Support
+## Support
 
 If you found this project useful, consider giving it a ⭐ on GitHub!
