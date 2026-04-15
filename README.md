@@ -84,7 +84,7 @@ sudo python3 va_ddos_tool/ddos_flooder.py
 
 ### DoS Detection (Single Attacker)
 
-![DoS Detection](assets/dos_output.png)
+![DoS Detection](https://github.com/Varun-hubb/va-ddos-tool/blob/main/va_ddos_tool/assets/dos_output.png?raw=true)
 
 ---
 
