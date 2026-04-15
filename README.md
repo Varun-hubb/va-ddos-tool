@@ -130,7 +130,7 @@ Do NOT use this tool on networks or systems without proper authorization.
 
 ## Author
 
-VA (Your Name)
+Varun
 
 ---
 
