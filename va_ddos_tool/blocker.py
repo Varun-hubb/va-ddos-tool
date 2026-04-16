@@ -96,8 +96,10 @@ def packet_callback(packet):
 
 def main():
 	show_banner()
-	print("Starting VA D3F3ND Engine...")
-    print("[+] Monitoring traffic...\n")
+
+	print("Starting VA D3FF3ND Engine...")
+	print("[+] Monitoring traffic...\n")
+
 	if os.geteuid() != 0:
 		print("[ERROR] Run this script as root!")
 		sys.exit(1)
