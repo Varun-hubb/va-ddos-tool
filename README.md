@@ -44,13 +44,80 @@ This project was tested in a virtual lab environment:
 
 ---
 
-## Installation
+## Installation Guide
+
+Follow these steps to install and run the tool.
+
+---
+
+### Step 1: Clone the repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/va-ddos-tool.git
 cd va-ddos-tool
-pip install .
 ```
+
+---
+
+### Step 2: Install dependencies
+
+```bash
+sudo apt update
+sudo apt install python3-pip python3-scapy -y
+pip3 install -r requirements.txt
+```
+
+---
+
+### Step 3: Run the tool (Defender - Ubuntu)
+
+```bash
+sudo python3 va_ddos_tool/blocker.py
+```
+
+---
+
+### Step 4: Simulate attacks (Attacker - Kali)
+
+#### DoS Attack:
+
+```bash
+sudo python3 va_ddos_tool/dos_flooder.py
+```
+
+#### DDoS Attack:
+
+```bash
+sudo python3 va_ddos_tool/ddos_flooder.py
+```
+
+---
+
+## Requirements
+
+* Linux (Ubuntu/Kali recommended)
+* Python 3.x
+* Root privileges (sudo access)
+* Virtual environment or VM setup
+
+---
+
+## Testing Setup
+
+* Run blocker on Ubuntu (Defender)
+* Run attack scripts on Kali (Attacker)
+* Ensure both systems are on same network
+
+---
+
+## Cleanup (Reset Firewall)
+
+After testing, reset iptables:
+
+```bash
+sudo iptables -F
+```
+
 
 ---
 
